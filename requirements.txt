@@ -9,7 +9,7 @@ matplotlib==3.8.4
 pydot==2.0.0
 pydotplus==2.0.2
 keras_visualizer @ git+https://github.com/KostikShutov/keras-visualizer@master
-cvxpy==1.4.2
+cvxpy==1.4.3
 Pillow==9.5.0
 python-dotenv==1.0.1
 tqdm==4.66.2
