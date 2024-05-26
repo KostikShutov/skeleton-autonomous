@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<Config>
+    <Init>
+        <ClassName>InitController</ClassName>
+        <Module>controllers.car.InitController</Module>
+    </Init>
+    <Generator>
+        <ClassName>GeneratorController</ClassName>
+        <Module>controllers.car.GeneratorController</Module>
+    </Generator>
+    <Train>
+        <ClassName>TrainController</ClassName>
+        <Module>controllers.car.TrainController</Module>
+    </Train>
+    <Models>
+        <Model>car_static_smoothly</Model>
+        <Model>car_static_aggressive</Model>
+        <Model>car_speed_dynamic</Model>
+        <Model>car_speed_slow</Model>
+        <Model>car_speed_weekly</Model>
+    </Models>
+</Config>

@@ -3,4 +3,4 @@
 *__pycache__
 tensorboard
 *.local
-model/*/*.json
+models/*/*.json

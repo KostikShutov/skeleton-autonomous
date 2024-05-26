@@ -1,6 +1,5 @@
 import os
 import argparse
-from components.model.ModelName import ModelName
 
 
 def createDirectory(directory: str) -> None:
@@ -20,7 +19,7 @@ def removeFirst(items: list) -> list:
 
 def parseArgs() -> any:
     parser = argparse.ArgumentParser()
-    parser.add_argument('-m', '--model', type=str, default=ModelName.STATIC_SMOOTHLY.value)
+    parser.add_argument('-m', '--model', type=str, required=True)
     parser.add_argument('-f', '--file', type=str, default='train')
     parser.add_argument('-n', '--number', type=int, default=1_000_000)
     parser.add_argument('-d', '--distance', type=int, default=1)
